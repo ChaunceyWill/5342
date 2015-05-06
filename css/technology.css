@@ -1,0 +1,116 @@
+/*Fonts in folder one step under main directory folder*/
+
+@font-face {
+	font-family: 'BebasNeueBold';
+	src: url(../fonts/BebasNeue Bold.otf);
+	}	
+	
+@font-face {
+font-family: 'BebasNeueRegular';
+src: url(../fonts/BebasNeue Regular.otf);
+
+}
+@font-face {
+	font-family: 'Arial Black';
+	src: url(../fonts/ariblk.ttf);
+	}
+
+@font-face {
+	font-family: 'Arial Bold';
+	src: url(../fonts/arialbd.ttf);
+	}
+
+@font-face {
+	font-family: 'Arial';
+	src: url (../fonts/arial.ttf);
+	}
+
+@font-face {
+	font-family: 'Helvetica Neue';
+	src: url(../fonts/helvetica-neue1.ttf);
+	}
+
+#container {
+	width: 4200px;
+	height: 100%;
+	background-color: rgba(0,0,0,0.9);
+	}
+
+	.hidden2 {
+		display: none;
+	}
+	
+#topbar {
+	Width: 100%;
+	height: 10%;
+	background: #000000; /*Black bar at the top*/
+	margin: 0 auto;
+	}
+#titlelink {   /*extended logo*/
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+	float: left;
+	bottom: 30px;
+}
+
+.leftbar {  	/*Sidenav bar on left side; for categories */
+	z-index: 1000;
+	width: 16%;
+	height: 50%;
+	margin: 0;
+	padding: 0;
+	float: left;
+	position: fixed;
+	bottom: 230px;
+	overflow: none;
+}
+#category{   /* ul  category styling*/
+	list-style-type: none;
+}
+
+.current{   
+	display: block;
+	font-family: 'Arial Black', sans-serif;
+	font-size: 2.3em;
+	position: relative;
+	margin: 6% auto;
+	color: #D3145A;
+	text-decoration: none;
+	}
+	
+.sidenav{   
+	display: block;
+	font-family: 'Arial Black', sans-serif;
+	font-size: 1.2em;
+	position: relative;
+	margin: 7% auto;
+	color: #00FFFF;
+	text-decoration: none;
+	}
+a:hover {
+	color: #D3145A;
+	text-decoration: none;
+	}		
+	
+	.media {
+		display: inline-block;
+		height: 65%;
+		float: left;
+		width: 3500px;
+		margin: 2% auto;
+		padding: 0;
+		position: relative;
+		left: 300px;
+		bottom: 100px;
+		font-family: 'Arial', sans-serif;
+		font-size: 0.8em;
+		color: #FFFFFF;
+	}
+	
+	figure {
+		display: inline;
+		float: left;
+		margin: 75px;
+		padding: 0;
+	}
