@@ -30,13 +30,18 @@ src: url(../fonts/BebasNeue Regular.otf);
 	src: url(../fonts/helvetica-neue1.ttf);
 	}
 
+body {
+	width: 100%;
+	height: 100%;
+}	
+	
 #container {
-	width: 4200px;
+	width: 2800px;
 	height: 100%;
 	background-color: rgba(0,0,0,0.9);
 	}
 
-	.hidden2 {
+	.hidden2 { 		 /*jquery* effect class*/
 		display: none;
 	}
 	
@@ -88,6 +93,9 @@ src: url(../fonts/BebasNeue Regular.otf);
 	color: #00FFFF;
 	text-decoration: none;
 	}
+a:link {
+	text-decoration: none;
+}
 a:hover {
 	color: #D3145A;
 	text-decoration: none;
@@ -97,7 +105,7 @@ a:hover {
 		display: inline-block;
 		height: 65%;
 		float: left;
-		width: 3500px;
+		width: 2500px;
 		margin: 2% auto;
 		padding: 0;
 		position: relative;
